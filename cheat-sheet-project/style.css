@@ -1,0 +1,25 @@
+table { margin: auto;
+    border: 5px solid #ca06aa;
+    width: 600px; 
+    border-spacing: 1px;
+}
+td { padding: 0.4em;
+     border-style: none;
+     font-family: Arial, sans-serif; 
+}
+th {padding: 0.8em;
+    background-color: #e96ac9;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+}
+h1, h2{font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      font-size: 1.2em;
+      padding-bottom: 0.5em; 
+      text-align: center;
+      color: rgb(29, 3, 78);
+}
+tr:nth-of-type(even) { background-color: #ebafdc; }
+tr:nth-of-type(odd) { background-color: rgb(241, 222, 241);
+               color: #030202; }
